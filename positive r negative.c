@@ -12,6 +12,6 @@ if(a>=0)
 	printf("you entered a zero");
 }
 else
-printf("you entered a smallest number");
+printf("you entered a negative number");
 return 0;
 }
