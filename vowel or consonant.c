@@ -6,8 +6,8 @@ printf("please Enter a alphabet:",ch);
 scanf(" %c",&ch);
 if(ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u'||ch=='A'||ch=='E'||ch=='I'||ch=='o'||ch=='u')
 {
-printf("\n %c \n You entered a VOWEL",ch);
+printf("\n %c is a vowel",ch);
 }else
-printf("\n %c \n You entered a CONSONANT");
+printf("\n %c is a consonant");
 return 0;
 }
