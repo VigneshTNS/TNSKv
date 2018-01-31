@@ -12,9 +12,9 @@ break;
 }
 if(b==0)
 {
-printf("\n%d is not a prime number",a);
+printf("\nNo\n%d is not a prime number",a);
 }
 else
-printf("\n%d is a prime number",a); 
+printf("\nYes\n%d is a prime number",a); 
 return 0;
 }
