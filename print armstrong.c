@@ -1,12 +1,11 @@
 #include<stdio.h>
 int main()
 {
-    int i,a,b,c,result,z;
+    int i,a,b,c,result=0,z,t;
     printf("please enter a three digit interval:");
     scanf("%d%d",&a,&b);
-    for(i=a+1;i<=b;i++)
+    for(i=a;i<=b;i++)
     {
-      result=0;
         z=i;
      while(z!=0)
      {
