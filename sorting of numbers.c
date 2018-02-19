@@ -22,7 +22,7 @@ a[j]=temp;
 }}}
   for(i=0;i<=b;i++)
   {
-printf("\n the sorted numbers is %d",temp);
+printf("\n the sorted numbers is %d",a[i]);
 }
   return 0;
 }
