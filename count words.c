@@ -4,7 +4,7 @@ int main()
 {
 int i,count=0,c,d;
 char a[100];
-printf("Enter different words:");
+printf("please Enter different words:");
 scanf("%s",&a[i]);
 c=strlen(a);
 for(i=0;i<=c;i++)
