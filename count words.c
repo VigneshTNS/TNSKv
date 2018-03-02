@@ -2,13 +2,12 @@
 #include<string.h>
 int main()
 {
-int i,count=0,c,d;
+int i,count=0,d;
 char a[100];
 printf("please Enter different words:");
-scanf("%s",&a[i]);
-c=strlen(a);
-for(i=0;i<=c;i++)
-  if(a[i]=='32')
+scanf("[\^n]%s",a[i]);
+for(i=0;i<=a[i]='\0';i++)
+  if(a[i]==' ')
   {
     count =count+1;
   }
