@@ -7,8 +7,11 @@ printf("Enter a string:");
 scanf("%[^\n]s",a);
 for(i=0;a[i]!='\0';i++)
 {
-if(a[i]>32 && a[i]<48 || a[i]>57 && a[i]<65 || a[90]>90 && a[i]<97 || a[i]>122 && a[i]<127);
+if(a[i]>96 && a[i]<123||a[i]>64 && a[i]<91||a[i]>47 && a[i]<58)
 {
+}
+  else
+  {
 count=count+1;
 }
 }
