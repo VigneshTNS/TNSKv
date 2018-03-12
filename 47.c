@@ -3,23 +3,23 @@ int main()
 {
 int i,n,a[n],max=a[0],min=a[0];
 printf("Enter a number:");
-scanf("%d%d",&n,&k);
-printf("Enter the elements:");
-for(i=0;i<=n;i++)
+scanf("%d",&n);
+printf("\nEnter the elements:");
+for(i=1;i<=n;i++)
 {
-scanf("%d",a[i]);
+scanf("%d",&a[i]);
 }
-for(i=0;i<=n;i++)
+for(i=1;i<=n;i++)
 {
 if(a[i]>max)
 {
 max=a[i];
 }
 }
-printf("maximum element is %d",max);
-for(i=0;i<=n;i++)
+printf("\nmaximum element is %d",max);
+for(i=1;i<=n;i++)
 {
-if(a[i]<min)
+if(a[i]<max)
 {
 min=a[i];
 }
