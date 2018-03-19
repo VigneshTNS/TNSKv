@@ -3,17 +3,18 @@
 int main()
 {
 int i,num,even;
-clrscr();
+  clrscr();
 printf("\n Enter a number");
 scanf("%d",&num);
-for(i=num-1;i<=num;i--)
-{
 if(num%2==0)
 {
-even=i;
+printf("\nNearest even number=%d",num);
 }
-}
+else
+{
+    even=num-1;
 printf("\n Nearest even number=%d",even);
-getch();
+}
+  getch();
 return 0;
 }
